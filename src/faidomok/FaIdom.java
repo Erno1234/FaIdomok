@@ -12,7 +12,9 @@ public abstract class FaIdom {
        return fajsuly * terfogat;
    }
 
-   
+    public static double getFajsuly() {
+        return fajsuly;
+    }
    
    @Override
     public String toString() {

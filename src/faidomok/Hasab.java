@@ -8,6 +8,18 @@ public class Hasab extends FaIdom {
         this.b = b;
         this.magassag = magassag;
     }
+
+    public double getA() {
+        return a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
+    public double getMagassag() {
+        return magassag;
+    }
     
 
     @Override
